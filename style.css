@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image:url(img/hero.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 70px 25px 60px;
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+.nav_link {
+    margin: 10px;
+}
+#logo {
+    font-size: 1.3rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 15.7%;
+    padding-bottom: 19.5% ;
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+.title p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.title h1 {
+    margin: 0;
+    font-weight: 500;
+}
+button {
+    background-color:#37a0f3;
+    padding: 15px 30px;
+    border: 1px solid  	#37a0f3;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+hr {
+    border-color:#37a0f3;
+    width: 100px;
+}
+
+
+.portfolio {
+    padding-top: 70px;
+}
+
+.porfolio_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#4f667b ;
+}
+.paragraph {
+    font-size: smaller;
+    line-height: 20px;
+}
+
+.portfolio_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.top_img {
+    margin: -12% 10px 10px 10px;
+
+    overflow: hidden;
+}
+.bottom_img {
+    margin: -25.5% 10px 10px 10px;
+
+    overflow: hidden;
+}
+
+.small_img {
+    width: 38%;
+    clip-path: inset(33.5% 0)
+}
+.big_img {
+    width: 58%;
+    clip-path: inset(33.5% 0)
+}
+
+
+
+.services {
+   background-color:  #F7F7F7;
+   color: #4f667b ;
+   text-align: center;
+   padding: 5% 2%;
+   margin-top: -10%;
+}
+
+.services_heading h2, p {
+    margin: 30px;
+}
+
+.services_icons {
+    display: flex;
+    padding: 30px 60px 120px 60px;
+}
+.services_icons i {
+    font-size: 3rem;
+    color: #37a0f3;
+}
+.services_icons div {
+    width: 33.3%;
+
+}
+.subscribe {
+    margin-top: 60px;
+}
+#email {
+    padding: 13px;
+    width: 30%;
+    margin: 20px;
+}
+
+footer {
+    background-color: #414B4C;
+    text-align: center;
+    padding: 60px 0;
+}
+.white_color {
+    color: white;
+}
+footer i {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+footer p {
+    color:lightgray ;
+    margin: 20px 0 10px 0;
+}
+
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:1099px) {
+
+    .bottom_img {
+        margin: -22% 10px 10px 10px;
+    }
+
+    .top_img {
+        margin: -11% 10px 10px 10px;
+    }
+
+    .small_img {
+        width: 30%;
+    }
+    .big_img {
+        width: 50%;
+    }
+}
